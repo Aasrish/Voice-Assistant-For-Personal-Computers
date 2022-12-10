@@ -1,6 +1,7 @@
 # Voice-Assistant-For-Personal-Computers
 Today almost every Operating System has some sort of voice assistant. For example, Siri, google(the google assistant), and Bixby. Even the windows system has one called Cortona. But we wanted to build a robust voice assistant for windows and Linux which could perform all the rudimentary tasks in the OS.
 # Required dependencies:
+-  pip install python3
 - pip install time
 - pip install beautyfulsoup4
 - pip install google
@@ -9,6 +10,9 @@ Today almost every Operating System has some sort of voice assistant. For exampl
 - pip install pyaudio
 - pip install transformers
 - pip install tensorflow
+# To Execute:
+Run the following command:
+``` python3 project_voice_recognition.py ```
 # Methodology:
 We first created a voice-to-text algorithm on python using the library Speech_Recognition. \
 For accessing the microphone we used the module speech_recognition. Microphone and to convert the
@@ -27,7 +31,7 @@ The model used for this project is: facebook/bart-large-mnli. \
 Lastly we mapped all the labels of ZSL outputs to the Linux functions using python and the OS library of
 python. \
 The OS library is used to implement functionalities like showing the contents of the folder and make a
-new directory. \
+new directory. 
 
 # Team Members:
 - Aasrish Vinay Perumalla (B20CS042)
