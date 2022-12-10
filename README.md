@@ -11,7 +11,6 @@ Today almost every Operating System has some sort of voice assistant. For exampl
   pip install pyaudio
   pip install transformers
   pip install tensorflow
-
 ```
 # To Execute:
 Run the following command:
