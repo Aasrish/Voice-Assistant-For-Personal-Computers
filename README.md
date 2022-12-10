@@ -32,11 +32,18 @@ the training of the model.
 This model is most useful in our case as we just need to define certain classes of output and the model
 will label the input with the given classes.
 We used the ZSL model from an online repository- “Hugging face”. Hugging Face is an online community that provides models based on open-source code technologies.
-The model used for this project is: facebook/bart-large-mnli. \
+The model used for this project is: [facebook/bart-large-mnli](https://huggingface.co/facebook/bart-large-mnli). \
 Lastly we mapped all the labels of ZSL outputs to the Linux functions using python and the OS library of
 python. \
 The OS library is used to implement functionalities like showing the contents of the folder and make a
 new directory. 
+# Outcomes:
+The voice assistant can run the following commands:
+- Show contents of a file.
+- Show today’s date.
+- Search for a given keyword on google.
+- Make a new directory.
+- Simple arithmetic operations.
 
 # Team Members:
 - Aasrish Vinay Perumalla (B20CS042)
