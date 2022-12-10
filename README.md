@@ -12,7 +12,12 @@ Today almost every Operating System has some sort of voice assistant. For exampl
 - pip install tensorflow
 # To Execute:
 Run the following command:
-``` python3 project_voice_recognition.py ```
+``` python3 project_voice_recognition.py ```  \
+This will execute the file 
+(Please install any other dependencies if prompted by the compiler) \
+The code will print “talk” then please give the command. \
+The code executes inside an infinite while loop, to stop it say “stop” after the “talk” command
+and the code will stop. 
 # Methodology:
 We first created a voice-to-text algorithm on python using the library Speech_Recognition. \
 For accessing the microphone we used the module speech_recognition. Microphone and to convert the
