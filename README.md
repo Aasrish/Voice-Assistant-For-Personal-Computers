@@ -1,8 +1,9 @@
 # Voice-Assistant-For-Personal-Computers
 Today almost every Operating System has some sort of voice assistant. For example, Siri, google(the google assistant), and Bixby. Even the windows system has one called Cortona. But we wanted to build a robust voice assistant for windows and Linux which could perform all the rudimentary tasks in the OS.
 # Required dependencies:
--  pip install python3
-- pip install time
+ ```
+  pip install python3 \
+  pip install time
 - pip install beautyfulsoup4
 - pip install google
 - pip install speechrecognition
@@ -10,6 +11,8 @@ Today almost every Operating System has some sort of voice assistant. For exampl
 - pip install pyaudio
 - pip install transformers
 - pip install tensorflow
+
+```
 # To Execute:
 Run the following command:
 ``` python3 project_voice_recognition.py ```  \
