@@ -51,4 +51,4 @@ The voice assistant can run the following commands:
 - Aasrish Vinay Perumalla (B20CS042)
 - Hriday Kondru (B20CS021)
 - Rohit Bhanudas Kote (B20CS056)
-- Ribhav Manish (B20CS054
+- Ribhav Manish (B20CS054)
